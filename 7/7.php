@@ -70,7 +70,7 @@ class SuperHeroi {
         }
 		
     public function aumentarEnergia($energia){   
-        return $this->$energia * 111222333;
+        return $this->$energia * 119126420;
     }
 	
 	public function calcularPoderMedio($energia, $forca){

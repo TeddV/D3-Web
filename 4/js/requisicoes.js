@@ -31,6 +31,7 @@ function enviarForm() {
 	data['altura'] = form.altura.value;
 	data['peso'] = form.peso.value; 
 	data['sexo'] = form.sexo.value;
+	// console.log(JSON.stringify(data));
 	fetch('http://localhost:8080/AulaBanco/pessoas', {
 		method: 'POST',       
 		body: JSON.stringify(data)
